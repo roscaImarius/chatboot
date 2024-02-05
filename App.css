@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+
+.chatButton{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.expandedChat{
+  background: rgba(17, 10, 10, 0.2);
+  border-radius: 10px;
+  border: 1px solid red;
+  padding: 16px;
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+}
+
+.questBtn{
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.questBtn:hover{
+  transform: scale(1.05);
+  color: rgb(165, 1, 1);
+}
+.questBtn.selected{
+  background-color: rgb(156, 156, 156);
+}
+
+.questions{
+  display: flex;
+  flex-direction: column;
+}
+
+.answer{
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-top: 20px;
+}
